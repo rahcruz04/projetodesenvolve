@@ -1,0 +1,42 @@
+/* Color Theme Swatches in Hex 
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-1-hex { color: #127369; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-2-hex { color: #10403B; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-3-hex { color: #8AA6A3; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-4-hex { color: #4C5958; }
+.N-I-S-H-I-K-I-G-O---Furniture-Design-Award-2014-5-hex { color: #BFBFBF; }
+*/
+
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+p{
+    text-indent: 1em;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h1{
+    font-size: 1.8rem;
+}
+h2{
+    font-size: 1.4rem;
+}
+h3{
+    1.2rem;
+}
+
+/*posição*/
+.summary{
+text-align: center;
+}
+
+/*espaçamento*/
+
+.main p{ line-height: 1.5rem;
+}
+
+abbr{
+    font-variant: small-caps;
+}

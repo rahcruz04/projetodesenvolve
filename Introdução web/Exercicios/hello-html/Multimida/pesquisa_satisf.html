@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de satisfação</title>
+</head>
+<body>
+    <h1>PESQUISA DE SATISFAÇÃO</h1>
+    <section>
+    <h4>DADOS PESSOAIS</H4>
+        <form action="pagina-destino.html">
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" placeholder="nome">
+            </p>
+            <p>
+              <label for="e-mail">E-mail</label>
+              <input type="text" placeholder="e-mail">
+            </p>
+            <p>
+                <label for="contato"> Telefone para contato</label>
+                <input type="number" placeholder="contato">
+            </p>
+        </section>
+        <section>
+            <h4>DADOS DE PESQUISA</h4>
+            CONSEGUIMOS SOLUCIONAR SEU PROBLEMA?
+            <input type="radio" id="sim" name="problema">
+            <label for="sim">Sim</label>
+
+            <input type="radio" id="parcial" name="problema">
+            <label for="parcial">Parcialmente</label>
+
+            <input type="radio" id="Não" name="problema">
+            <label for="não">Não</label>
+            <P>
+                INDICARIA NOSSO ATENDIMENTO PARA CONHECIDOS?
+                <input type="radio" id="sim" name="indicação">
+                <label for="sim">Sim</label>
+
+                <input type="radio" id="não" name="indicação">
+                <label for="não">Não</label>
+            </P>
+            <p>
+                <label for="departamento ">DEPARTAMENTO DE ATENDIEMNTO</label>
+                <select>
+                    <option value="cobrança">COBRANÇA</option>
+                    <option value="ofertas">OFERTAS</option>
+                    <option value="atendimento">ATENDIMENTO</option>
+                    <option value="cancelamento">CANCELAMENTO</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" id="termos">
+                <label for="termos"><strong>Autorizo o compartilhamento das minhas informações com terceiros</strong></label>
+            </p>
+        </section>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>

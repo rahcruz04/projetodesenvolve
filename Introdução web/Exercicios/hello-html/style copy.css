@@ -1,0 +1,25 @@
+
+
+a{ color: red;}
+
+a:hover{
+     color: lime;
+    }
+
+    p{
+     font-family: Arial;
+    }
+
+    h1+p{
+     font-weight: bold;
+    }
+    p.destaque{
+     font-weight: bold;
+    }
+    strong.destaque{
+     color: red;
+    }
+
+    body{
+     background-color: blueviolet
+    }
