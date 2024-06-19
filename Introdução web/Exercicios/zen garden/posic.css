@@ -1,0 +1,9 @@
+.page-wrapper{
+    position: relative;
+}
+
+.explanation{
+    width: 60%;
+    border-right: #1f295c solid 1px ;
+    padding-right: 2%
+}

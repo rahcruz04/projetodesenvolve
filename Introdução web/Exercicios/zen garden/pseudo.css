@@ -1,0 +1,24 @@
+
+a{
+    color: #ff1492;
+}
+
+a:hover{
+    color: #eb95c3e9;
+}
+
+.main p:first-of-type:first-letter{
+font-size: 3em;
+font-family: 'Times New Roman', Times, serif;
+float: left;
+}
+
+.design-selection li{
+    border-top: #1f295c solid 1px;
+    padding-top: 5px;
+}
+
+.design-selection li:last-of-type{
+    border-bottom: #1f295c solid 1px;
+    padding-bottom: 5px;
+}
